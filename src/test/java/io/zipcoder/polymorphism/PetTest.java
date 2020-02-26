@@ -10,6 +10,8 @@ public class PetTest {
         Cat cat = new Cat("Tom");
         String catExpected = "Meow";
         String actual= dog.speak();
+        Bird bird = new Bird("Big Bird");
+        String birdExpected = "Keet";
         String catActual = cat.speak();
         Assert.assertEquals(expected,actual);
         Assert.assertEquals(catExpected,catActual);
